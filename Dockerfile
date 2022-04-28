@@ -1,4 +1,4 @@
-FROM bitnami/nginx
+FROM quay.io/muradsamadov/bitnami-nginx
 
 
 
