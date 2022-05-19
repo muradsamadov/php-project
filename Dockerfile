@@ -1,8 +1,8 @@
-FROM quay.io/muradsamadov/bitnami-nginx
+#FROM quay.io/muradsamadov/bitnami-nginx
 
+FROM quay.io/muradsamadov/nginx
 
-
-ADD [ "./index.html", "/app" ]
+ADD [ "./index.html", "/usr/share/nginx/html/" ]
 
 # EXPOSE 80
 
